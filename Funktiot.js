@@ -1,6 +1,6 @@
-document.getElementByID("InsertIDHere")
-document.getElementsByTag("InsertTagHere")
-document.querySelector("InsertTagNameHere")
+document.getElementByID("IdName")
+document.getElementsByTag("TagName")
+document.querySelector("TagName")
 
 function functionName()
 {
@@ -30,5 +30,5 @@ function lisaaListaEnterinJalkeen()
     teeListaElementti(); //käynnistetään oletusfunktio
   }
 }
-enterButton.addEventListener("Click", lisaaListallePainalluksenJalkeen);
+enterButton.addEventListener("click", lisaaListallePainalluksenJalkeen);
 listamuuttuja.addEventListener("keypress", lisaaListaEnterinJalkeen);
