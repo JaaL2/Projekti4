@@ -1,12 +1,12 @@
-document.getElementByID("IdName")
-document.getElementsByTag("TagName")
-document.querySelector("TagName")
+document.getElementByID("uusi")
+document.getElementsByTag("li")
+document.querySelector("li")
 
-function functionName()
+function tarkastaSyottopituus()
 {
   return syotto.value.lenght;
 }
-function functionName()
+function tarkastaListaPituus()
 {
   return lista.lenght;
 }
