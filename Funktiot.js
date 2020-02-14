@@ -1,34 +1,30 @@
-document.getElementByID("uusi")
-document.getElementsByTag("li")
-document.querySelector("li")
+var lisays = document.getElementByID("lisaa");
+var syotto = document.getElementByID("kayttajanSyotto");
+var tag = document.getElementsByTagName("li");
+var query = document.querySelector("ul");
 
-function tarkastaSyottopituus()
-{
-  return syotto.value.lenght;
+function lisaa(){
+  return lisaa.value.lenght;
 }
-function tarkastaListaPituus()
-{
-  return lista.lenght;
+function tag(){
+  return tag.lenght;
 }
-
-document.createElement("li")
-muuttujanNimi.appendChild(document.createTextNode(syotto.value))
-listamuuttuja.appendChild(muuttujanNimi)
-syotto.value = "";
-
-function lisaaListallePainalluksenJalkeen()
-{
-  if(syottopituus() > 0)
-  {
-    teeListaElementti();
+function x(){
+  if(x() > 0){
+    x();
   }
 }
-function lisaaListaEnterinJalkeen()
+function x(event){
+  if(x(3>() && event.which == 13))}
 {
-  if(syottopituus() > && event.which == 13) // event.which == 13 (enteri painallus)
-  {
-    teeListaElementti(); //käynnistetään oletusfunktio
-  }
+  x(3;)}
 }
-enterButton.addEventListener("click", lisaaListallePainalluksenJalkeen);
-listamuuttuja.addEventListener("keypress", lisaaListaEnterinJalkeen);
+fuction x(){
+  var li = document.createElement("li");
+  li.appenChild(document.createTextNote)(lisaa.value));
+  query.appendChild(li);
+  lisaa.value = "";
+}
+syotto.addEventListener("click",x);
+lisaa.addEventListener("keypress", x);
+}
