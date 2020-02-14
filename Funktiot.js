@@ -21,9 +21,10 @@ function x(event){
 }
 fuction x(){
   var li = document.createElement("li");
-  li.appenChild(document.createTextNote)(x.value));
+  li.appenChild(document.createTextNote)(lisaa.value));
   query.appendChild(li);
-  x.value = "";
+  lisaa.value = "";
 }
 syotto.addEventListener("click",x);
-x.addEventListener("keypress", x);}
+lisaa.addEventListener("keypress", x);
+}
