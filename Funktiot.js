@@ -20,7 +20,7 @@ function nappain(event){
 {
   paaFunktio(3;)}
 }
-fuction paaFunktio(){
+function paaFunktio(){
   var li = document.createElement("li");
   li.appenChild(document.createTextNote)(lisays.value));
   query.appendChild(li);
