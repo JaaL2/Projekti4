@@ -1,30 +1,31 @@
-var lisays = document.getElementByID("lisaa");
-var syotto = document.getElementByID("kayttajanSyotto");
+var lisays = document.getElementByID("nappi");
+var syotto = document.getElementByID("uusiTeht");
 var tag = document.getElementsByTagName("li");
 var query = document.querySelector("ul");
-
-function lisaa(){
-  return lisaa.value.lenght;
+// Viitataan inputtiin //
+function uusiTeht(){
+  return lisays.value.lenght;
 }
+// Listattujen elementtien määrä //
 function tag(){
   return tag.lenght;
 }
-function x(){
-  if(x() > 0){
-    x();
+function paina(){
+  if(tag() > 0){
+    paaFunktio();
   }
 }
-function x(event){
-  if(x(3>() && event.which == 13))}
+function nappain(event){
+  if(uusiTeht(3>() && event.which == 13))}
 {
-  x(3;)}
+  paaFunktio(3;)}
 }
-fuction x(){
+fuction paaFunktio(){
   var li = document.createElement("li");
-  li.appenChild(document.createTextNote)(lisaa.value));
+  li.appenChild(document.createTextNote)(lisays.value));
   query.appendChild(li);
-  lisaa.value = "";
+  lisays.value = "";
 }
-syotto.addEventListener("click",x);
-lisaa.addEventListener("keypress", x);
+syotto.addEventListener("click",paina);
+lisays.addEventListener("keypress",nappain);
 }
